@@ -1,6 +1,6 @@
 - First install Zend Server:
 http://www.zend.com/en/products/server/downloads
-- After that install Java Bridge (if it is not installed alreay)
+- After that install Java Bridge (if it is not installed already)
 http://www.zend.com/topics/Zend-Server-Installation-Guide-5-6.pdf
 - Edit the watchdog-jb.ini file given here and replace the paths to point to the location of the jar files (liquibase, liquibase-zend, mysql).
 
