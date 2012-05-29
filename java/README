@@ -1,0 +1,11 @@
+To compile the latest version of the Liquibase-Zend plugin do the following:
+
+1. Compile the java class
+javac com/zend/db/Migration.java -classpath <path-to/liquibase.jar>
+
+The latest version of the liquibase.jar file can be downloaded directly from here:
+http://liquibase.org/download
+
+2. Create the jar file
+jar cvf Liquibase-Zend.jar com/zend/db/*.class
+
