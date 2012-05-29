@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns="http://www.zend.com/server/deployment-descriptor/1.0" version="1.0">
+    <name>zf</name>
+    <version>
+        <release>1.1.9</release>
+    </version>
+    <appdir>data</appdir>
+    <docroot>data/public</docroot>
+    <scriptsdir>scripts</scriptsdir>
+    <parameters>
+    <parameter display="Application Environment" id="APPLICATION_ENV" readonly="false" required="true" type="choice">
+      <validation>
+        <enums>
+          <enum>development</enum>
+          <enum>testing</enum>
+          <enum>staging</enum>
+          <enum>production</enum>
+        </enums>
+      </validation>
+      </parameter>
+  </parameters>
+</package>
